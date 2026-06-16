@@ -1,0 +1,36 @@
+ÀÄproject - 1
+   ÀÄMAIN  0/239  Ram=4
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄ@delay_ms1  0/20  Ram=1
+      ÃÄdisplay  0/15  Ram=2
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÀÄ@delay_ms1  0/20  Ram=1
+      ÃÄdisplay  0/15  Ram=2
+      ³  ÀÄ*
+      ÃÄdisplay  0/15  Ram=2
+      ³  ÀÄ*
+      ÃÄ@ITOF  0/31  Ram=2
+      ÃÄ@MULFF  0/117  Ram=13
+      ÃÄ@DIVFF  0/204  Ram=14
+      ÃÄ@PSTRINGCN7_669  0/86  Ram=5
+      ³  ÃÄ@SPRINTF  0/13  Ram=1
+      ³  ÀÄ@SPRINTF  0/13  Ram=1
+      ÃÄ@PRINTF_L32D_669FPFPF  0/226  Ram=13
+      ³  ÃÄ@MULFF  0/117  Ram=13
+      ³  ÃÄ@FTOSD  (Inline)  Ram=5
+      ³  ÃÄ@DIV3232  0/79  Ram=13
+      ³  ÃÄ@SPRINTF  0/13  Ram=1
+      ³  ÃÄ@SPRINTF  0/13  Ram=1
+      ³  ÃÄ@SPRINTF  0/13  Ram=1
+      ³  ÃÄ@SPRINTF  0/13  Ram=1
+      ³  ÀÄ@DIV3232  0/79  Ram=13
+      ÃÄ@SPRINTF  0/13  Ram=1
+      ÃÄ@SPRINTF  0/13  Ram=1
+      ÃÄdisplay  0/15  Ram=2
+      ³  ÀÄ*
+      ÃÄdisplay  0/15  Ram=2
+      ³  ÀÄ*
+      ÃÄ@delay_ms1  0/20  Ram=1
+      ÃÄdisplay  0/15  Ram=2
+      ³  ÀÄ*
+      ÀÄ@delay_ms1  0/20  Ram=1

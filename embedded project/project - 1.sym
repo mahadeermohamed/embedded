@@ -1,0 +1,151 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004-005 @WRITE_PROGRAM_MEMORY8.P2
+006     lcd
+006.0   cs
+007.0   rs
+007.1   en
+007.3   clk
+007.4   sdi
+007.5   sdo
+008     PSP_DATA
+00C.3   SSPIF
+00C.4   TXIF
+013     SSPBUF
+014     SSPCON
+015     CCP_1_LOW
+015     CCP_1
+016     CCP_1_HIGH
+018     RCSTA
+019     TXREG
+01B     CCP_2
+01B     CCP_2_LOW
+01C     CCP_2_HIGH
+01E     adresh
+01F     adcon0
+01F.2   godone
+020-021 @sprintf_string
+022-023 MAIN.result
+024-025 MAIN.i
+026-027 MAIN.my_adresh
+028-031 MAIN.my_data
+032-035 MAIN.percentage
+036     MAIN.rx
+037     MAIN.i
+038-03B @PRINTF_L32D_669FPFPF.P1
+038     @PSTRINGCN7_669.P2
+038-039 @ITOF.P3
+038     MAIN.@SCRATCH1
+039     display.x
+039     MAIN.@SCRATCH2
+039     @PSTRINGCN7_669.@SCRATCH1
+03A     display.y
+03A     MAIN.@SCRATCH3
+03A     @PSTRINGCN7_669.@SCRATCH2
+03B     @delay_ms1.P1
+03B     MAIN.@SCRATCH4
+03B     @PSTRINGCN7_669.@SCRATCH3
+03C     @PRINTF_L32D_669FPFPF.P1
+03C-03F @DIVFF.P2
+03C     @PSTRINGCN7_669.@SCRATCH4
+03D     @PRINTF_L32D_669FPFPF.@SCRATCH1
+03E     @PRINTF_L32D_669FPFPF.@SCRATCH2
+03F     @PRINTF_L32D_669FPFPF.@SCRATCH3
+040-043 @DIVFF.P1
+040     @PRINTF_L32D_669FPFPF.@SCRATCH4
+041     @PRINTF_L32D_669FPFPF.@SCRATCH5
+042     @PRINTF_L32D_669FPFPF.@SCRATCH6
+043     @PRINTF_L32D_669FPFPF.@SCRATCH7
+044     @DIVFF.@SCRATCH1
+044     @PRINTF_L32D_669FPFPF.@SCRATCH8
+045-048 @MULFF.P1
+045-048 @FTOSD.P2
+045-048 @DIV3232.P3
+045     @SPRINTF.P4
+045     @DIVFF.@SCRATCH2
+046     @DIVFF.@SCRATCH3
+047     @DIVFF.@SCRATCH4
+048     @DIVFF.@SCRATCH5
+049-04C @MULFF.P1
+049-04C @DIV3232.P2
+049     @DIVFF.@SCRATCH6
+049     @FTOSD.@SCRATCH1
+04D     @MULFF.@SCRATCH1
+04D     @DIV3232.@SCRATCH1
+04E     @MULFF.@SCRATCH2
+04E     @DIV3232.@SCRATCH2
+04F     @MULFF.@SCRATCH3
+04F     @DIV3232.@SCRATCH3
+050     @MULFF.@SCRATCH4
+050     @DIV3232.@SCRATCH4
+051     @MULFF.@SCRATCH5
+051     @DIV3232.@SCRATCH5
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+086.0   tcs
+086     tlcd
+087.0   trs
+087.1   ten
+087.3   tclk
+087.4   tsdi
+087.5   tsdo
+094     SSPSTAT
+098     TXSTA
+099     SPBRG
+09C.6   C1OUT
+09C.7   C2OUT
+09E     adresl
+09F     adcon1
+10D-10E @READ_PROGRAM_MEMORY8.P1
+10D-10E @WRITE_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+000004  @const667.call
+00000B  @delay_ms1
+00001F  display
+00002E  @ITOF
+00004D  @MULFF
+0000C2  @DIVFF
+00018E  @SPRINTF
+00019B  @PSTRINGCN7_669
+0001F1  @DIV3232
+000240  @PRINTF_L32D_669FPFPF
+000267  @FTOSD
+000322  @cinit1
+000322  MAIN
+00032E  @cinit2
+
+Project Directory:
+    D:\pic project\
+
+Project Files:
+    project - 1.c                                           [18-Apr-26 11:21  CRC=2338C9C1]
+    project - 1.h                                           [15-Apr-26 18:33  CRC=CF12E969]
+    E:\PICC\Devices\16F877A.h                               [03-Jul-13 14:28  CRC=4E65664C]
+
+Source signature=8F167FC2
+
+Units:
+    project - 1 (main)
+
+Compiler Settings:
+    Processor:      PIC16F877A
+    Pointer Size:   16
+    ADC Range:      0-65535
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   project - 1.xsym
+    Errors:      project - 1.err
+    Ext Symbols: project - 1.esym
+    INHX8:       project - 1.hex
+    Symbols:     project - 1.sym
+    List:        project - 1.lst
+    Debug/COFF:  project - 1.cof
+    Project:     project - 1.ccspjt
+    Call Tree:   project - 1.tre
+    Statistics:  project - 1.STA

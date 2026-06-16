@@ -1,0 +1,23 @@
+[PROJECT]
+Target=project - 1.hex
+Processor_Text=PIC16F877A
+CCSVerions=5.008
+Compiler=PCM
+CCSVersion=5.008
+[Target Data]
+FileList=project - 1.c
+[Directories]
+Include=E:\PICC\Devices\;E:\PICC\Drivers\;D:\pic project\
+[D:\pic project\project - 1]
+Type=4
+[mru-list]
+1=project - 1.c
+[Opened Files]
+1=project - 1.c
+2=
+3=
+[project - 1.c]
+Type=4
+[Units]
+Count=1
+1=project - 1 (main)
